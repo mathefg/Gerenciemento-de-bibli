@@ -1,0 +1,125 @@
+@font-face{font-family:"Beta";
+    src: url(BebasNeue-Regular.ttf);
+    
+}
+body{ 
+    background-size:contain;
+    background-color: white;
+    overflow-x: hidden;
+}
+.headerinicial{
+    display: flex;
+    justify-content: center;   
+}
+
+.logo1{
+    float: both ;
+    width: 400px;
+    height: 400px;  
+    position: relative;   
+}
+.navinicial{
+    float: both;
+    position: relative; 
+    z-index: 10;
+    margin-top: -170px !important;
+    height: 250px;  
+}
+.lienter{ margin: 5px 10px 3px 10px;
+    list-style: none;
+    
+    
+}
+form label {
+    display: block;
+    width: fit-content;
+    font-size: 0.8em;
+    font-weight: 100;
+    background-color: rgba(55, 41, 145, 0.2);
+    padding: 3px 7px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+
+input[type=text], [type=number], select, input[type=date], input[type=date], input[type=datetime], input[type=email], input[type=month], input[type=password], input[type=range], input[type=tel], input[type=time], input[type=week] {
+    width: 350px;
+    padding: 12px 20px;
+    font-size: 1em;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 350px;
+    background-color: blue ;
+    font-size: 1em;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/*PAGINA (centrel.php)*/
+
+header.pagina1{
+    height: 250px;   
+}
+.logo{
+    float: left;
+    position: relative;bottom: 100px;right: 30px;
+}
+.licentral{
+    display: flex;
+    float: left;
+    padding: 10px;
+    position: relative; left: 600px; bottom: 10px;
+    width: 150px;
+    border-radius:30px;
+    margin:5px 10px;
+    
+}
+
+.bot1{
+    text-decoration: none;
+    font-family: "beta";
+    font-size: 20px;
+    color: black;
+    margin: 0 auto;
+}
+/*imagem central*/
+.imgcen{ 
+    width: 500px;
+    height: 500px;
+}
+.divimgc{display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;bottom: 220px;
+}
+.alicad{
+    border: 1px solid red;
+    width: 500px;
+    padding: 20px 600px;
+}
+.h1cad{
+    border: 1px solid red;
+    width: 280px;
+    padding: 0px 40px;
+}
+.h1ed{
+    border: 1px solid red;
+    width: 200px;
+    padding: 0px 50px;
+    margin: 0 30px;
+}

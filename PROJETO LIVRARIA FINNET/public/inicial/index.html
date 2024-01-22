@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial</title>
+    <link rel="stylesheet" href="/PROJETO%20LIVRARIA%20FINNET/public/config/style.css">
+</head>
+<body>
+    
+    <header class="headerinicial">
+        <div>
+            <img class="logo1" src="/PROJETO%20LIVRARIA%20FINNET/imagens/FINLIBRARY (1).png">
+            <nav class="navinicial">
+                <form>
+                    <ul> 
+                        <li class="lienter">
+                            <label for="usu">Usuário:</label>
+                            <input type="text" placeholder="Insira seu usuário" name="usu" id="usu">
+                        </li>
+                        <li class="lienter">
+                            <label for="sen">Usuário:</label>
+                            <input type="password" placeholder="Insira sua senha" name="sen" id="sen">      
+                        </li>
+                        <li class="lienter">
+                            <input type="submit" value="Entrar" onclick="logar(); return false">
+                        </li>
+                    </ul>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <script>
+     function logar(){
+        var usuario = document.getElementById("usu").value;
+        var senha = document.getElementById("sen").value;
+
+        if (usuario =="Socorro" && senha =="12345") {
+            alert('Sucesso');
+            location.href = "/PROJETO%20LIVRARIA%20FINNET/public/inicial/central.php";
+        }else{
+            alert('Usuario ou senha incorretos');
+        }
+     }
+    </script>
+</body>
+</html>
